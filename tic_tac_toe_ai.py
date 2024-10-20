@@ -70,6 +70,8 @@ board = restart()
 current_player = 'X'
 game_over = False
 
+# This code is use to play for 2 players 
+
 # while True:
 #     for event in pygame.event.get():
 #         if event.type == pygame.QUIT:
@@ -97,6 +99,8 @@ game_over = False
 
 #     pygame.display.update()
 
+
+# for this extra  function is used to play with ai
 def check_draw(board):
     for row in range(BOARD_ROWS):
         for col in range(BOARD_COLS):
